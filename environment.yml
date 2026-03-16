@@ -1,0 +1,8 @@
+name: gral
+channels:
+  - conda-forge
+dependencies:
+  - nodejs>=24.0
+  - pnpm>=10.0
+  - python>=3.14
+
