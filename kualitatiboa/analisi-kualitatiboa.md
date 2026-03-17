@@ -1,4 +1,13 @@
-# Analisi Kualitatiboa
+---
+title: Zertan datza analisi kualitatiboa?
+subtitle: Datuen kodifikazioa eta interpretazioa
+subject: Analisi Kualitatiboa
+site:
+  hide_outline: false
+  hide_toc: false
+  hide_title_block: false
+---
+
 
 > [!WARNING] Atal kualitatiboaren helburua
 > *Datu kualitatiboak kodetzea, sailkatzea eta interpretatzea, tresna praktikoak erabiliz.*
@@ -11,7 +20,7 @@
         
     - Analisi kuantitatiboarekin duen aldea:
         
-        - Ez da zenbakiekin lan egiten, baizik eta **gaiei, patternei eta esanahiei** dagokiona.
+        - Ez da zenbakiekin lan egiten, baizik eta **gaiei, patroiei eta esanahiei** dagokiona.
             
 - Ikerketa kualitatibo motak:
     

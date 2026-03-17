@@ -5,8 +5,6 @@ site:
   hide_title_block: true
 ---
 
-:::::::{div} text-center
-
 :::{image} https://www.ehu.eus/documents/4998110/7068022/Facultad+Educacion+Filosofia+Antropologia_Gipuzkoa_bilingue_positivo_alta.jpg
 :alt: Hezkuntza, Filosofía eta Antropología Fakultatea- UPV/EHU
 :width: 320px
@@ -19,7 +17,7 @@ site:
 
 **IRAKASLEAK**
 
-:::::::
+
 
 ::::::{grid} 1 1 2 2
 
@@ -68,3 +66,4 @@ Un Experto es alguien que sabe cada vez más sobre cada vez menos, hasta llegar 
 ::::: 
 
 **2026**
+
