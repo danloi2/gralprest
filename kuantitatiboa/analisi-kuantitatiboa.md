@@ -20,82 +20,71 @@ Estatistikan errealitatea ulertzeko bi kontzeptu ulertu behar dira:
 **Populazioa**  
 : Ikerketa batean aztertzen den **multzo osoa edo kolektiboa** da. Adibidez, ikastetxe bateko **ikasle guztiak** populazioa dira, zure ikerketan guztien datuak kontuan hartzen bagenu bezala.
 
-:::
-
-:::{tip} Adibide {term}`Populazioa` (GRAL): Ikastetxe bateko Ikasleak
-
-Ikastetxe bateko ikasle guztiak {term}`populazioa` dira, zure ikerketan guztien datuak kontuan hartzen bagenu bezala.
-
-:::
-
-::: {glossary}
-
 **Lagina**  
 : {term}`Populazioa`ren **zati ordezkari bat** da, datuak bildu eta **ondorioak ateratzeko** erabiltzen dena.  
 
 :::
 
 :::{tip} Adibide {term}`lagina` (GRAL): 30 Ikasleren Notak
-
 Ikastetxe bateko 30 ikasleren notak {term}`lagina` dira, ikastetxe osoaren emaitzak estimatzeko.
-
 :::
 
 :::{important} Ideia nagusia
-
-{term}`Populazioa`ren eta {term}`Lagina`ren arteko erlazioa.
-
+{term}`Populazioa`ren eta {term}`Lagina`ren arteko erlazioa:
 - {term}`Populazioa` → **guztia**, zuzeneko informazio guztia  
 - {term}`Lagina` → **zati bat**, praktiko eta aztertzeko erraza, ondorioak ateratzeko erabiltzen dena
-
 :::
 
-Estatistika bi adarretan banatzen da:
+## Analisi Kuantitatiboaren Urratsak
 
-## Analisi deskribatzailea
+Analisi kuantitatibo on bat egiteko, estatistika bi adarretan banatzen da prozesu ordenatu bat jarraituz. GRAL baterako, hauek dira pauso nagusiak:
+
+### 1. Urratsa: Datuen Prestaketa
+Datuak softwarean (Jamovi, SPSS) sartu aurretik, ondo antolatu behar dira. Aldagaiak definitzea, falta diren datuak (missing values) kudeatzea eta formatua (adibidez `.csv` edo `.sav`) egokia dela ziurtatzea da lehen pausoa.
+
+### 2. Urratsa: Analisi Deskribatzailea
+
+Lehen fase estatistikoa beti da lortutako datuak arakatu eta deskribatzea (nola banatzen diren, balio atipikorik badagoen...). 
 
 ::: {glossary}
 
 **Estatistika deskribatzailea**
-: Datuak **laburbiltzeko, deskribatzeko eta modu ulergarrian aurkezteko** erabiltzen den estatistika adarra da. Datu-multzoak bildu, sailkatu eta irudikatzeaz arduratzen da, haien ezaugarri nagusiak aztertzeko (hala nola batezbestekoa, mediana, moda edo histogramak). Garrantzitsua da gogoratzea adar honek **ez duela laginetik haratago orokortzeko asmorik**; bere helburu nagusia aztertutako talde zehatz horren "argazki" garbi eta sinple bat eskaintzea da, datuak modu ulergarrian aurkeztuz.
+: Datuak **laburbiltzeko, deskribatzeko eta modu ulergarrian aurkezteko** erabiltzen da. Datu-multzoak bildu, sailkatu eta irudikatzeaz arduratzen da, haien ezaugarri nagusiak aztertzeko (batezbestekoa, mediana, moda edo histogramak). Bere helburu nagusia lortutako datuen "argazki" bat eskaintzea da, **laginetik haratago orokortzeko asmorik gabe**.
 
 :::
 
 :::{tip} Adibide Deskribatzailea (GRAL): Ikasgelako motibazio-maila
-  * **Testuingurua:** Galdesorta bat pasatu diezu zure gelako 25 ikasleei matematikarekiko duten motibazioa neurtzeko (1etik 10era).
-  * **Analisi deskribatzailea:** Kalkulatu duzu batezbestekoa (6,5), mediana (7) eta moda (8). Gainera, barra-diagrama bat egin duzu erantzunen banaketa ikusteko.
-  * **Emaitza:** "*Nire gelako ikasleen % 60ak 7tik gorako motibazioa du*". (Zure taldeari buruzko argazki finkoa da).
-
+* **Testuingurua:** Galdesorta bat pasatu diezu zure gelako 25 ikasleei.
+* **Analisi deskribatzailea:** Kalkulatu duzu batezbestekoa (6,5) eta barra-diagrama bat egin duzu.
+* **Emaitza:** "Nire gelako ikasleen % 60ak 7tik gorako motibazioa du".
 :::
 
-## Analisi inferentziala
+### 3. Urratsa: Aurrebaldintzak eta Banaketen Analisia
+
+Inferentzietara pasa aurretik (hau da, proba estatistiko sendoak egin aurretik), datuek irizpide batzuk betetzen dituztela ziurtatu behar da. Garrantzitsuenak **normaltasuna** (Shapiro-Wilk) eta **bariantzen homogeneotasuna** (Levene) dira. Homozedastikotasunik ez badago, proba ez-parametrikoak edota parametro zuzenduak (Welch) erabili beharko dira.
+
+### 4. Urratsa: Analisi Inferentziala
+
+Behin datuak ezagututa, hurrengo urratsa hipotesiak ebaluatzeko eta emaitzak populazio osora estrapolatzeko erabiltzen da.
 
 ::: {glossary}
 
 **Estatistika Inferentziala**  
-: Estatistika adar bat da, non lagin baten datuetatik abiatuta populazio osoari buruzko ondorioak ateratzen diren. Helburua da **laginaren informazioa orokortzea**, **parametroak estimatzea** eta **hipotesiak probatzea**.
+: Lagin baten datuetatik abiatuta populazio osoari buruzko ondorioak ateratzen dituen adarra da. Helburua **laginaren informazioa orokortzea**, parametroak estimatzea eta hipotesiak probatzea da.
 
 :::
 
 :::{tip} Adibide Inferentziala (GRAL): Gamifikazioaren eragina ikasgelan
-  * **Testuingurua:** Metodologia tradizionala erabili duzu gela batean eta gamifikazioa beste batean. Ikasle guztiak antzekoak dira (lagin adierazgarria).
-  * **Analisi inferentziala:** *T-test* bat aplikatzen duzu bi taldeen arteko aldea esanguratsua den ikusteko (p-balioa aztertuz).
-  * **Emaitza:** "*Gamifikazioa erabili denean lortutako hobekuntza ez da kasualitatea izan; beraz, metodo hau **LHko edozein ikasgelatan** aplikatuta emaitza hobeak lortuko liratekeela ondorioztatzen da*".
+* **Testuingurua:** Metodologia tradizionala gela batean eta gamifikazioa beste batean aplikatu duzu.
+* **Analisi inferentziala:** *T-test* bat aplikatzen duzu bi taldeen arteko aldea esanguratsua den ikusteko.
+* **Emaitza:** "Gamifikazioarekin lortutako hobekuntza ez da kasualitatea izan; beraz, metodo hau LHko edozein ikasgelatan aplikatuta emaitza hobeak lortuko liratekeela ondorioztatzen da".
 :::
 
-:::{important} Ideia nagusia
+---
 
-Estatistika deskribatzailearen eta inferentzialaren arteko erlazioa.
+## Dataset-a (Praktikatzeko Materialari Sarbidea)
 
-* **Deskribatzailea:** Zer gertatu den azaldu eta laburbiltzen du.
-* **Inferentziala:** Ondorioak atera eta datuak orokortzen ditu.
+Ondorengo fitxategiak erabiliko ditugu adibide gisa analisi kuantitatiboa ikasteko. Zuzenean deskargatu ditzakezu ordenagailura zure software estatistiko gogokoenean irekitzeko:
 
-:::
-
-:::{dropdown} GRAL-erako oharra
-Zure ikerketan, bi adarrak modu osagarrian erabiltzea da ohikoena:
-
-1. **Fase deskribatzailea:** Lehen urratsa beti da lortutako datuak arakatu eta deskribatzea (nola banatzen diren, balio atipikorik badagoen...).
-2. **Fase inferentziala:** Ondoren, hipotesiak ebaluatzeko eta lortutako emaitzak unibertsitatera edo aztergai duzun populazio osora estrapolatu ahal izateko erabiltzen da.
-
-:::
+- 📊 {download}`Dataset Kuantitatiboa (CSV formatuan - Excel edo antzekoetarako) <../assets/data/kuantitatiboa/dataset-kuantitatiboa.csv>`
+- 📊 {download}`Dataset Kuantitatiboa (SAV formatuan - SPSS edo Jamovirako) <../assets/data/kuantitatiboa/dataset-kuantitatiboa-kappa.sav>`
