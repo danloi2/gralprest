@@ -1,5 +1,5 @@
 ---
-title: Nola atera ditzake ondorioak lagin batetik populazioari buruz?
+title: Nola atera ditzaket ondorioak lagin batetik populazioari buruz?
 subtitle: Konfiantza-tarteak eta hipotesi-kontrasteak
 subject: Analisi Inferentziala
 site:
@@ -11,23 +11,23 @@ site:
 
 > [!NOTE]
 > Helburua:
-> 
+>
 > **Lagin batetik populazioari buruzko ondorioak ateratzea.**
-> 
+>
 > Tresnak:
-> 
+>
 > - konfiantza-tarteak
->     
+>
 > - hipotesi-kontrasteak
 
-    
+
 ## Konfiantza-tartea
 
 Populazio parametroa egongo den **balio tartea**.
 
 Adib:
 
-batezbestekoa = 78  
+batezbestekoa = 78
 CI95% = **73.52 – 82.48**
 
 Interpretazioa:
@@ -46,7 +46,7 @@ Urratsak:
 
 1️⃣ Hipotesiak formulatu
 
-H₀ → ez dago efekturik  
+H₀ → ez dago efekturik
 H₁ → efektua dago
 
 2️⃣ α ezarri

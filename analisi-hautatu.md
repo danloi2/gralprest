@@ -13,17 +13,17 @@ site:
 ::::{grid} 2
 
 :::{grid-item-card} Analisi Kuantitatiboa
-> [!WARNING] Atal kuantitatiboaren helburua  
+> [!WARNING] Atal kuantitatiboaren helburua
 > *Hezkuntzako zenbakizko datu sinpleak analizatzea Jamovi erabiliz*.
 
-{button}`Ir al análisis cuantitativo <./kuantitatiboa/analisi-kuantitatiboa.md>`
+{button}`Analisi kuantitatiboa <./kuantitatiboa/analisi-kuantitatiboa.md>`
 :::
 
 :::{grid-item-card} Analisi Kualitatiboa
-> [!WARNING] Atal kualitatiboaren helburua  
+> [!WARNING] Atal kualitatiboaren helburua
 > *Datu kualitatiboak kodetzea, sailkatzea eta interpretatzea, tresna praktikoak erabiliz*.
 
-{button}`Ir al análisis cualitativo <./kualitatiboa/analisi-kualitatiboa.md>`
+{button}`Analisi kualitatiboa <./kualitatiboa/analisi-kualitatiboa.md>`
 :::
 
 ::::

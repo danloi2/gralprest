@@ -1,6 +1,6 @@
 ---
 title: Zerekin egin ditzake analisi estatistikoak?
-subtitle: JAMOVI:doakoa eta intuitiboa
+subtitle: JAMOVI, doakoa eta intuitiboa
 subject: Software
 site:
   hide_outline: false

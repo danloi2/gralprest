@@ -36,11 +36,11 @@ project:
       - Visualization
       - Writing-original draft
       - Writing-review & editing
-      affiliations: 
+      affiliations:
       - id: upvehu
         institution: Universidad del País Vasco / Euskal Herriko Unibertsitatea
         ror: https://ror.org/000xsnr85
-        department: Didáctica y Organización Escolar 
+        department: Didáctica y Organización Escolar
         address: Tolosa Hiribidea, 70
         city: 20018-Donostia San Sebastián
         region: Comunidad Autónoma del País Vasco
@@ -82,10 +82,21 @@ project:
     - title: Analisi Kualitatiboa
       children:
         - file: kualitatiboa/analisi-kualitatiboa.md
+        - file: kualitatiboa/datu-motak.md
+        - title: Softwarea
+          children:
+            - file: kualitatiboa/softwarea/qualcoder.md
+            - file: kualitatiboa/softwarea/beste-softwareak.md
+        - title: Urratsak
+          children:
+            - file: kualitatiboa/urratsak/1-kodifikazioa.md
+            - file: kualitatiboa/urratsak/2-kategoriak.md
+            - file: kualitatiboa/urratsak/3-interpretazioa.md
+            - file: kualitatiboa/urratsak/4-idazketa.md
     - title: Informazioa
       children:
         - file: info/glossary.md
-    
+
 site:
   nav:
       - title: Daniel Losada

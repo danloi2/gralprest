@@ -1,6 +1,6 @@
 ---
 title: Zertan datza analisi kualitatiboa?
-subtitle: Datuen kodifikazioa eta interpretazioa
+subtitle: Sarrera eta Ikuspegi Orokorra
 subject: Analisi Kualitatiboa
 site:
   hide_outline: false
@@ -8,195 +8,54 @@ site:
   hide_title_block: false
 ---
 
+> Helburua: Datu kualitatiboak (elkarrizketak, egunerokoak, dokumentuak) aztertzen ikastea TFG baterako.
 
-> [!WARNING] Atal kualitatiboaren helburua
-> *Datu kualitatiboak kodetzea, sailkatzea eta interpretatzea, tresna praktikoak erabiliz.*
+> [!TIP] Galdera gidaria
+> Zure elkarrizketak egin dituzu… zer egin behar duzu orain?
 
-## 1.- 1️⃣ Sarrera analisi kualitatiboan (15 min)
+**Analisi kualitatiboa** da testuak, iritziak eta esperientziak ulertzeko prozesua. Ez da zenbakiekin neurtzen, baizik eta **esanahia** eta **patroiak** bilatzen dira testuetan.
 
-- **Zer da analisi kualitatiboa**
-    
-    - **Testuak, elkarrizketak, behaketak edo dokumentuak** interpretatzea.
-        
-    - Analisi kuantitatiboarekin duen aldea:
-        
-        - Ez da zenbakiekin lan egiten, baizik eta **gaiei, patroiei eta esanahiei** dagokiona.
-            
-- Ikerketa kualitatibo motak:
-    
-    - **Kasuen azterketa**
-        
-    - **Etnografia**
-        
-    - **Ekintza-ikerketa**
-        
-    - **Teoria fundamentatua (Grounded Theory)**
-        
-- Adibide laburra: Irakasleei elkarrizketak metodologia berriak nola erabiltzen dituzten galdetzea.
-    
+:::{glossary}
 
-💡 Mezu gakoa:
+Analisi kualitatiboa
+: Zenbakiekin neurtu beharrean, testu, iritzi eta esperientzietan ezkutatzen diren **esanahiak eta patroiak** identifikatu eta ulertzeko ikerketa-prozesua da.
 
-> Analisi kualitatiboaren helburua da **fenomenoak ulertzea**, ez bakarrik neurtzea.
+Dataset
+: Ikerketa batean aztertuko den datu-multzoa. Analisi kualitatiboan, transkripzioek, egunkariek, bideoek edo dokumentuek osa dezakete.
 
----
+:::
 
-## 2.- 2️⃣ Datu kualitatibo motak (15 min)
+## Akats ohikoenak
 
-- **Elkarrizketen transkripzioak**
-    
-- **Leku-oharrak eta behaketak**
-    
-- **Dokumentu hezigarriak** (programak, gidak, lanak)
-    
-- **Foroak edo ikasketa egunkariak**
-    
+Ikerketari ekiterakoan, saihestu beharreko akatsak:
+❌ Elkarrizketak osorik kopiatzea
+❌ Laburpen hutsak egitea analisiaren ordez
+❌ Zitak (elkarrizketatuen esaldiak) ez erabiltzea
+❌ Interpretaziorik ez egitea, soilik deskribatzea
 
-💡 Jarduera laburra:  
-Elkarrizketa zatia erakutsi eta eztabaidatu:
+## Ondorioa / Ikuspegi Orokorra
 
-> Zer motatako informazio erabilgarria atera dezakegu?
+Analisi kualitatiboaren pauso orokorrak honako hauek dira (hurrengo ataletan zehatz mehatz landuko ditugunak):
+
+1. **Irakurri** datu guztiak ulertzeko.
+2. **Kodifikatu** (Etiketatu) zati garrantzitsuak.
+3. **Taldekatu** kodeak kategoriatan eta gaietan.
+4. **Interpretatu** aurkitutako patroiak.
+5. **Idatzi** emaitzak APA formatuan.
+
+> [!NOTE] Helburua
+> Datuetatik esanahia eraikitzea.
 
 ---
 
-## 3.- 3️⃣ Datuen kodifikazioa (40 min)
+## Dataset-a (Praktikatzeko Materialari Sarbidea)
 
-### 3.1.- Zer da kodifikatzea
+Ondorengo fitxategiak erabiliko ditugu adibide gisa analisi kualitatiboa ikasteko. Zuzenean deskargatu ditzakezu ordenagailura:
 
-- Testu-zatiei **etiketak esleitu**.
-    
-- Adibidea:
-    
-    - Zatia: “Ikasleek gehiago parte hartzen dute talde-dinamiken bidez”
-        
-    - Kodea: `ikasleen_parte-hartzea`
-        
-
-### 3.2.- Kodifikazio motak
-
-|Mota|Azalpena|Adibidea|
-|---|---|---|
-|Irekia|Kode hasierakoak, kategoriarik gabe|`motibazioa`, `zailtasuna`|
-|Axiala|Kodeak elkarrekin erlazionatu|`motibazioa` → `ikasleen_parte-hartzea`|
-|Hautaketa|Gai nagusiak eraiki|`Parte-hartzeari eragiten dioten faktoreak`|
-
-### 3.3.- Tresna praktikoak
-
-- **Eskuz**: Word / Excel
-    
-- **Softwarea**:
-    
-    - NVivo
-        
-    - ATLAS.ti
-        
-    - MAXQDA
-        
-    - **Taguette** (doakoa, oso sinple)
-        QualCoder
-        
-    |**Ezaugarriak**|**Taguette**|**QualCoder**|
-|---|---|---|
-|**Erabilerraztasuna**|**Oso altua.** Minutuetan ikasten da.|**Ertaina.** Interfaz teknikoagoa eta konplexua.|
-|**Formatu onartuak**|**Testua bakarrik** (PDF, DOCX, TXT, etab.)|**Anitza** (Testua, Irudiak, Audio eta Bideo).|
-|**Kodeen hierarkia**|Plana (subkodeak onartzen ditu, ez ikusgai).|**Hierarkikoa.** Kode konplexuak sortzeko aukera.|
-|**Lankidetza**|**Oso ona.** Web bertsioa talde-lanerako.|**Mugatua.** Gehienbat banakako erabilerarako.|
-|**Analisi aurreratua**|Oinarrizkoa (bilaketa eta esportazioa).|Aurreratua (co-ocurrencia taulak, grafikoak, SQL).|
-|**Instalazioa**|Mahaigainean edo zerbitzarian (navegadorea bidez).|Tokiko instalazioa (Python / instaladore exekutagarria).|
-
-💡 Jarduera laburra:  
-Testu txiki bat eman eta eskatzea **3 ideia garrantzitsu kodifikatzea**.
-
----
-
-## 4.- 4️⃣ Kodeen taldekatzea kategoriatan eta gaietan (30 min)
-
-- Kodifikazioa egin ondoren, **patroiak bilatu**.
-    
-- Antzeko kodeak **kategoriatan** taldeka.
-    
-- Kategoriatik, **gai nagusiak** identifikatu.
-    
-
-Adibidea:
-
-- Kodeak: `ikasleen_parte-hartzea`, `talde_interakzioa`, `klase_dibisioa`
-    
-- Kategoria: `Talde-dinamika`
-    
-- Gai nagusia: `Parte-hartzearen faktore nagusiak`
-    
-
-💡 Tip: **Mapa kontzeptuala** eginda erlazioak ikusgaiago bihurtzen dira.
-
----
-
-## 5.- 5️⃣ Interpretazioa eta emaitzak (25 min)
-
-- Ez bakarrik kodeak azaltzea: **esanahien interpretazioa**.
-    
-- Adibidea:
-    
-    - Gai: `Motibazio faktoreak`
-        
-    - Interpretazioa: Ikasleek gehiago parte hartzen dute entzuten sentitzen direnean eta jarduerak interaktiboak direnean.
-        
-- **Testu-hitzartzeak** erabiliz ebidentzia gehitu.
-    
-
----
-
-## 6.- 6️⃣ Balidazioa eta zorrotza (15 min)
-
-- **Triangulazioa:** iturri desberdinak erabili (elkarrizketak, behaketak).
-    
-- **Adituen berrikuspena:** kodeak eta gaiak beste ikertzaileekin partekatu.
-    
-- **Ikerketa memoria:** kodeaketa erabakiak nola eta zergatik hartu ziren azaldu.
-    
-
----
-
-## 7.- 7️⃣ Emaitzen aurkezpena TFG batean (15 min)
-
-- Nola sartu analisi kualitatiboa:
-    
-    - Kode eta kategoria taulak
-        
-    - Adibide testu-hitzartzeak
-        
-    - Interpretazio narratiboa
-        
-- Mantendu **ikerketa helburuekin koherentzia**
-    
-
----
-
-## 8.- 8️⃣ Ariketa amaiera (30 min)
-
-- **Elkarrizketa edo talde-fokaleko transkripzio labur bat** eman.
-    
-- Ikasleei eskatzea:
-    
-    1. Zati garrantzitsuak kodifikatu
-        
-    2. Kodeak kategoriatan taldekatu
-        
-    3. 2–3 gai nagusi identifikatu
-        
-    4. Paragrafo interpretatibo bat idatzi, testu-hitzartzeekin
-        
-
-💡 Ariketa honek **dena ikasitakoa integratzen du**.
-
----
-
-# Material osagarria
-
-- Kodifikazio txantiloia (Word / Excel)
-    
-- TFG adibidea analisi kualitatiboarekin
-    
-- Software doako / probako zerrenda
-    
-- Emaitzen txostena adibidez (kategoriak, gaiak eta testu-hitzartzeak)
+- **Konpilazio osoa:** {download}`Dataset osoa <../assets/data/kualitatiboa/dataset-kualitatiboa.md>`
+- **Banakako fitxategiak:**
+    - {download}`Elkarrizketa 1 (Lehen Hezkuntza) <../assets/data/kualitatiboa/2026-elkarrizketa-ir01.md>`
+    - {download}`Elkarrizketa 2 (Haur Hezkuntza) <../assets/data/kualitatiboa/2026-elkarrizketa-ir02.md>`
+    - {download}`Elkarrizketa 3 (Lehen Hezkuntza) <../assets/data/kualitatiboa/2026-elkarrizketa-ir03.md>`
+    - {download}`Gelako egunkaria <../assets/data/kualitatiboa/20260105-egunkaria-ikerlaria.md>`
+    - {download}`Programazio didaktikoa <../assets/data/kualitatiboa/2026-documentua-programazioa-didaktikoa-matematika-lh6.md>`
