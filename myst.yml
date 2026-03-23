@@ -93,21 +93,27 @@ project:
         - title: Softwarea
           children:
             - file: kualitatiboa/softwarea/qualcoder.md
+            - file: kualitatiboa/softwarea/qualcoder-config.md
+            - file: kualitatiboa/softwarea/qualcoder-config-ia.md
+            - file: kualitatiboa/softwarea/qualcoder-proiektua.md
             - file: kualitatiboa/softwarea/beste-softwareak.md
         - title: Urratsak
           children:
-            - title: 1. Kodifikazioa
+            - title: 1. Irakurri
               children:
-                - file: kualitatiboa/urratsak/1-kodifikazioa/kodifikazioa.md
-            - title: 2. Kategoriak
+                - file: kualitatiboa/urratsak/1-irakurri/irakurri.md
+            - title: 2. Kodifikatu
               children:
-                - file: kualitatiboa/urratsak/2-kategoriak/kategoriak.md
-            - title: 3. Interpretazioa
+                - file: kualitatiboa/urratsak/2-kodifikatu/kodifikatu.md
+            - title: 3. Taldekatu
               children:
-                - file: kualitatiboa/urratsak/3-interpretazioa/interpretazioa.md
-            - title: 4. Idazketa
+                - file: kualitatiboa/urratsak/3-taldekatu/taldekatu.md
+            - title: 4. Interpretatu
               children:
-                - file: kualitatiboa/urratsak/4-idazketa/idazketa.md
+                - file: kualitatiboa/urratsak/4-interpretatu/interpretatu.md
+            - title: 5. Idatzi
+              children:
+                - file: kualitatiboa/urratsak/5-idatzi/idatzi.md
     - title: Informazioa
       children:
         - file: info/glossary.md

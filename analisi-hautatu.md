@@ -21,7 +21,7 @@ site:
 
 :::{grid-item-card} Analisi Kualitatiboa
 > [!WARNING] Atal kualitatiboaren helburua
-> *Datu kualitatiboak kodetzea, sailkatzea eta interpretatzea, tresna praktikoak erabiliz*.
+> *Datu kualitatiboak kodetzea, sailkatzea eta interpretatzea QualCoder erabiliz*.
 
 {button}`Analisi kualitatiboa <./kualitatiboa/analisi-kualitatiboa.md>`
 :::

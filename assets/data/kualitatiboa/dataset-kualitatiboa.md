@@ -1,8 +1,3 @@
-Perfecto — aquí tienes el **dataset completo en euskara**, adaptado para que sea natural y útil en TFG de Educación Infantil y Primaria 👇
-Puedes copiarlo directamente en tu Jupyter Book.
-
----
-
 # 📂 DATASETA (EUSKARAZ)
 
 ```markdown
@@ -119,7 +114,7 @@ Dataset honek aukera ematen du:
 ✅ Elkarrizketak lantzeko
 ✅ Egunkariak interpretatzeko
 ✅ Dokumentuak aztertzeko
-✅ Konparazioak egiteko (oso garrantzitsua TFG-rako)
+✅ Konparazioak egiteko (oso garrantzitsua GRAL-rako)
 
 ---
 

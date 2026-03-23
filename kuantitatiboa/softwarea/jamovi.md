@@ -18,3 +18,4 @@ JAMOVI doakoa da, intuitiboa eta automatikoki eguneratzen ditu emaitzak.
 - https://www.jamovi.org/
 - Hizkuntza aldatzeko: Hiru puntuak → Hizkuntza
 
+Manuala: https://davidfoxcroft.github.io/lsj-book/

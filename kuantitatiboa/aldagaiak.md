@@ -148,7 +148,6 @@ Aldagai Moderatzailea
 ```{list-table} Aldagai motak funtzioaren arabera
 :header-rows: 1
 :label: aldagaiak-funtzioa-table
-:widths: 20 45 35
 
 * - Aldagai mota
   - Zer da?

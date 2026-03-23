@@ -12,4 +12,4 @@ Mundu kualitatiboan **NVivo**, **ATLAS.ti** edo **MAXQDA** bezalako softwareak d
 
 Egia da aukera eta funtzionalitate oso aurreratuak eskaintzen dituztela (sare semantiko konplexuak sortzea, hizkuntza naturalaren prozesamendua, multimedia fitxategien ebazpena, etab.). 
 
-Hala ere, gaur egun Gradu Amaierako Lan (GRAL) edo TFG baterako, **QualCoder** bezalako tresna irekiak eta doakoak gomendatzen dira erraztasunagatik eta mundu guztiari eskuragarri egoteagatik datuen azterketa sakona egin ahal izateko.
+Hala ere, gaur egun Gradu Amaierako Lan (GRAL) baterako, **QualCoder** bezalako tresna irekiak eta doakoak gomendatzen dira erraztasunagatik eta mundu guztiari eskuragarri egoteagatik datuen azterketa sakona egin ahal izateko.
