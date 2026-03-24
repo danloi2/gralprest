@@ -1,6 +1,6 @@
 ---
-title: "(3) Informanteak edo Kasua AUKERATU"
-subtitle: "Epea: Urtarrilorako"
+title: '(3) Informanteak edo Kasua AUKERATU'
+subtitle: 'Epea: urtarrilerako'
 subject: Lan Prozesua
 site:
   hide_outline: false
@@ -30,17 +30,17 @@ Ikerketa metodologiaren arabera, atal honek bi izen har ditzake:
 : Ikerketa batean aztertzen den **multzo osoa edo kolektiboa** da. Adibidez, ikastetxe bateko **ikasle guztiak** populazioa dira.
 
 **Lagina**  
-: {term}`Populazioa`ren **zati ordezkari bat** da, datuak bildu eta **ondorioak ateratzeko** erabiltzen dena.  
+: {term}`Populazioa`ren **zati ordezkari bat** da, datuak bildu eta **ondorioak ateratzeko** erabiltzen dena.
 
 :::
 
 **Lagina** populazioaren zati ordezkari bat da.
 
-| Lagin Estrategia | Deskribapena |
-|-----------------|-------------|
-| **Ausazko lagina** | Populazioaren kide guztiek aukera berdina |
-| **Estratifikatua** | Azpitaldeak proportzionalki ordezkatuta |
-| **Komentazkoa** | Eskuragarritasunagatik aukeratutakoa |
+| Lagin Estrategia   | Deskribapena                               |
+| ------------------ | ------------------------------------------ |
+| **Ausazko lagina** | Populazioaren kide guztiek aukera berdina  |
+| **Estratifikatua** | Azpitaldeak proportzionalki ordezkatuta    |
+| **Komentazkoa**    | Eskuragarritasunagatik aukeratutakoa       |
 | **Boladun lagina** | Irizpide zehatz batzuk betetzen dituztenak |
 
 :::{tip} Lagin tamaina
@@ -58,6 +58,7 @@ Lagin tamaina kalkulatzeko `G*Power` software librea erabil daiteke.
 - Ikertzen ari den fenomenoan anizatasuna islatzea
 
 **Kasuaren deskribapena** barne hartzen du:
+
 - Testuingurua (ikastetxea, gela, giroa)
 - Parte-hartzaileak (ezaugarri nagusiak, anonimizatuta)
 - Sarrera baldintzak

@@ -1,6 +1,6 @@
 ---
-title: "(5) Datuak edo Aztergai dauden elementuak BILATU eta JASO"
-subtitle: "Epea: Otsailorako"
+title: '(5) Datuak edo Aztergai dauden elementuak BILATU eta JASO'
+subtitle: 'Epea: Otsailerako'
 subject: Lan Prozesua
 site:
   hide_outline: false
@@ -22,23 +22,24 @@ Landa lana da datuak zuzenean jasotzen den aldia. Prozesu honen eraginkortasunak
 ## Landa Lanaren Antolaketa
 
 :::{tip} Antolakuntza Gidalerroak
+
 1. **Ordutegi zehatza** egin (egunak, orduak, lekuak)
 2. Tresnak **aurretiaz prestatu** (grabagailuak, galdetegiak...)
 3. Parte-hartzaileekin **aurretiazko komunikazioa** mantendu
 4. **Pilotu txiki bat** egin hasieran arazoak detect atzeko
 5. **Fitxategiak** sistematikoki antolatu egunero
-:::
+   :::
 
 ---
 
 ## Datuak Jasotzeko Protokoloa
 
-| Fasea | Ekintzak |
-|-------|---------|
-| **Hasiera** | Parte-hartzaileei azalpenak eman, baimena berretsi |
-| **Bilketa** | Tresna aukeratua erabili (elkarrizketa, galdetegi...) |
-| **Bukaera** | Eskerrak eman, galderak erantzun |
-| **Fitxategiztatzea** | Grabaketak transkribatu, datu-basea eguneratu |
+| Fasea                | Ekintzak                                              |
+| -------------------- | ----------------------------------------------------- |
+| **Hasiera**          | Parte-hartzaileei azalpenak eman, baimena berretsi    |
+| **Bilketa**          | Tresna aukeratua erabili (elkarrizketa, galdetegi...) |
+| **Bukaera**          | Eskerrak eman, galderak erantzun                      |
+| **Fitxategiztatzea** | Grabaketak transkribatu, datu-basea eguneratu         |
 
 ---
 

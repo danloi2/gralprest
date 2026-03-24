@@ -1,6 +1,6 @@
 ---
-title: "(10) Txostena IDATZI"
-subtitle: "Epea: Ekainorako"
+title: '(10) Txostena IDATZI'
+subtitle: 'Epea: Ekainerako'
 subject: Lan Prozesua
 site:
   hide_outline: false
@@ -33,6 +33,7 @@ Erreferentzia guztiak **APA 7** formatuan idatzi behar dira. Idazketa estiloa et
 :::
 
 **Idazketa gidalerroak:**
+
 - Prosa akademiko argia eta zehatza
 - Paragrafoen egitura: ideia nagusia + garapena + lotura
 - Iruditeria eta taulak: izen eta iturri egokiekin
@@ -43,8 +44,9 @@ Erreferentzia guztiak **APA 7** formatuan idatzi behar dira. Idazketa estiloa et
 ## Aurkibide eta Portada Eredua
 
 Portadaren osagaiak (eranskin edo txantiloi ofizialean):
+
 - Unibertsitatearen logoa
-- Gradua eta ikasturtea  
+- Gradua eta ikasturtea
 - GRALaren izenburua (euskaraz eta gazteleraz)
 - Egilearen izen-abizenak
 - Tutorearen izen-abizenak

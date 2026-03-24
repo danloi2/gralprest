@@ -1,6 +1,6 @@
 ---
-title: "(4) Datuak jasotzeko tresnak AUKERATU edota SORTU"
-subtitle: "Epea: Urtarrilorako"
+title: '(4) Datuak jasotzeko tresnak AUKERATU edota SORTU'
+subtitle: 'Epea: urtarrilerako'
 subject: Lan Prozesua
 site:
   hide_outline: false
@@ -19,21 +19,22 @@ Ikerketa metodologiaren eta diseinuaren arabera aukeratzen dira tresnak:
 
 ::::{grid} 1 1 2 2
 
-
 :::{card} 📊 Ikerketa Kuantitatiboa
+
 - Galdetegiak / Eskala psikometrikoak (Likert)
 - Test estandarizatuak
 - Behaketa-errubrikak (zenbakizko puntuazioekin)
 - Erregistro kliniko / akademikoak
-:::
+  :::
 
 :::{card} 🎙️ Ikerketa Kualitatiboa
+
 - Elkarrizketa sakonak (erdi-egituratuak edo irekiak)
 - Behaketa parte-hartzailea
 - Talde fokalak
 - Dokumentu analisia
 - Egunkari / arlo-oharrak
-:::
+  :::
 
 ::::
 

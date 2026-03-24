@@ -1,6 +1,6 @@
 ---
-title: "(8) Emaitza garrantzitsuenekin EZTABAIDATU"
-subtitle: "Epea: Maiatzorako"
+title: '(8) Emaitza garrantzitsuenekin EZTABAIDATU'
+subtitle: 'Epea: Maiatzerako'
 subject: Lan Prozesua
 site:
   hide_outline: false
@@ -27,7 +27,7 @@ site:
 - Iragarpen/hipotesiekin konparatu
 
 :::{tip} Eztabaidatzeko Formula
-*"Gure emaitzen arabera (emaitza), literaturarekin bat dator / kontraesanean dago (erreferentzia). Honek esan nahi du (interpretazioa)."*
+_"Gure emaitzen arabera (emaitza), literaturarekin bat dator / kontraesanean dago (erreferentzia). Honek esan nahi du (interpretazioa)."_
 :::
 
 ---
@@ -50,6 +50,7 @@ Ikerketa guztiek muga dute. Haiek aitortzea **zientifikotasunaren seinale** da, 
 :::
 
 Muga ohikoenak:
+
 - Lagin tamaina txikia
 - Lagin ez-probabilistikoa (orokortzeko zailtasunak)
 - Datuen bilketa-tresna bakar baten erabilera

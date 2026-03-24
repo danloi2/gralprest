@@ -1,5 +1,5 @@
 ---
-title: "Zeintzuk dira GRAL baten Prozesuaren Dekalogoa?"
+title: 'Zeintzuk dira GRAL baten Prozesuaren Dekalogoa?'
 subtitle: Antolaketa posible bat
 subject: Lan Prozesua
 site:
@@ -29,15 +29,15 @@ Ondoko hamar urratsek osatzen dute GRAL baten prozesu osoa, abendutik ekainera:
   - 1.2 {term}`Marko Teorikoa` · 2.1 {term}`Diseinua` · 2.2 {term}`Hipotesiak` eta {term}`Aldagaiak` · 5. {term}`Erreferentziak`
 * - (3)
   - Informanteak edo Kasua **AUKERATU**
-  - Urtarrilorako
+  - urtarrilerako
   - 2.3 {term}`Parte-hartzaileak` / {term}`Kasu Azterketa`
 * - (4)
   - Datuak jasotzeko tresnak **AUKERATU** edota **SORTU**
-  - Urtarrilorako
+  - urtarrilerako
   - 2.4 {term}`Tresnak` · 2.5 {term}`Prozesua` · 2.7 {term}`Etika` · 5. {term}`Erreferentziak` · 6. {term}`Eranskinak`
 * - (5)
   - Datuak **BILATU** eta **JASO**
-  - Otsailorako
+  - Otsailerako
   - {term}`Landa Lana` · 6. {term}`Eranskinak`
 * - (6)
   - Datuak **ANALIZATU**
@@ -45,19 +45,19 @@ Ondoko hamar urratsek osatzen dute GRAL baten prozesu osoa, abendutik ekainera:
   - 2.6 {term}`Analisi Tresnak` · 6. {term}`Eranskinak`
 * - (7)
   - Emaitza garrantzitsuenak **DESKRIBATU**
-  - Apirilorako
+  - Apirilerako
   - 3. {term}`Emaitzak` · 6. {term}`Eranskinak`
 * - (8)
   - Emaitza garrantzitsuenekin **EZTABAIDATU**
-  - Maiatzorako
+  - Maiatzerako
   - 4.1 {term}`Eztabaida` · 5. {term}`Erreferentziak`
 * - (9)
   - Ikerketaren Ondorio Nagusienak **IDENTIFIKATU**
-  - Maiatzorako
+  - Maiatzerako
   - 4.2 {term}`Ondorioak` · 5. {term}`Erreferentziak`
 * - (10)
   - Txostena **IDATZI**
-  - Ekainorako
+  - Ekainerako
   - Txosten Osoa ({term}`Portada`, {term}`Laburpena`, {term}`Eskerrak`, {term}`Aurkibideak` + 1-6 Atalak)
 ```
 

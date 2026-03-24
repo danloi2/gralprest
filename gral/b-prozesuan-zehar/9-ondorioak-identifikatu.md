@@ -1,6 +1,6 @@
 ---
-title: "(9) Ikerketaren Ondorio Nagusienak IDENTIFIKATU"
-subtitle: "Epea: Maiatzorako"
+title: '(9) Ikerketaren Ondorio Nagusienak IDENTIFIKATU'
+subtitle: 'Epea: Maiatzerako'
 subject: Lan Prozesua
 site:
   hide_outline: false
@@ -39,10 +39,8 @@ Helburuak modu sistematiko eta ordenatuan erantzun:
 
 Helburu Orokorrari erantzuna: ...
 
-1) Helburu Espezifikoa 1: ...
-2) Helburu Espezifikoa 2: ...
-
-
+1. Helburu Espezifikoa 1: ...
+2. Helburu Espezifikoa 2: ...
 
 ---
 
