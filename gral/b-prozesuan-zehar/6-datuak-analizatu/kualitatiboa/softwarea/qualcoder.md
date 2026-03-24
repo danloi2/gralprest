@@ -6,12 +6,7 @@ subject: QualCoder
 
 ## Zerekin egin ditzakezu analisi kualitatiboak?
 
-QualCoder doako softwarea da datu kualitatiboak (testuak, irudiak, audioak eta bideoak) aztertzeko. Tresna hau ulertu aurretik, garrantzitsua da jakitea zer egiten dugun benetan analisi kualitatiboan.
-
-:::{glossary}
-Analisi kualitatiboa
-  Testuak edo bestelako datuak interpretatuz esanahia eta patroiak ateratzeko prozesua.
-:::
+QualCoder doako softwarea da datu kualitatiboak (testuak, irudiak, audioak eta bideoak) aztertzeko. Tresna hau ulertu aurretik, garrantzitsua da jakitea zer egiten dugun benetan **analisi kualitatiboan**.
 
 ## Nola instalatu QualCoder
 

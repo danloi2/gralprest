@@ -24,7 +24,7 @@ Bi bloke nagusi daude, eta bakoitzak {term}`analisi deskriptibo<Estatistika desk
 
 Ikerketaren aldagaiak datu motaren arabera
 
-![Aldagaiak](../assets/images/aldagaiak-datu.*)
+![Aldagaiak](../../../../assets/images/aldagaiak-datu.*)
 
 :::
 
@@ -116,7 +116,7 @@ Aldagaiek ikerketa-ereduan betetzen duten **rola** ere sailkatu daiteke.
 
 Ikerketaren aldagaiak funtzioaren arabera
 
-![Aldagaiak](../assets/images/aldagaiak-funtzioa.*)
+![Aldagaiak](../../../../assets/images/aldagaiak-funtzioa.*)
 
 :::
 

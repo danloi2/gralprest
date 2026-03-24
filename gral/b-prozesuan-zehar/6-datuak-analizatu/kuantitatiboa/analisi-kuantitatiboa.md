@@ -13,17 +13,7 @@ site:
 
 ## Populazioa eta Lagina
 
-Estatistikan errealitatea ulertzeko bi kontzeptu ulertu behar dira: 
-
-::: {glossary}
-
-**Populazioa**  
-: Ikerketa batean aztertzen den **multzo osoa edo kolektiboa** da. Adibidez, ikastetxe bateko **ikasle guztiak** populazioa dira, zure ikerketan guztien datuak kontuan hartzen bagenu bezala.
-
-**Lagina**  
-: {term}`Populazioa`ren **zati ordezkari bat** da, datuak bildu eta **ondorioak ateratzeko** erabiltzen dena.  
-
-:::
+Estatistikan errealitatea ulertzeko bi kontzeptu ulertu behar dira: {term}`Populazioa` eta {term}`Lagina`. 
 
 :::{tip} Adibide {term}`lagina` (GRAL): 30 Ikasleren Notak
 Ikastetxe bateko 30 ikasleren notak {term}`lagina` dira, ikastetxe osoaren emaitzak estimatzeko.

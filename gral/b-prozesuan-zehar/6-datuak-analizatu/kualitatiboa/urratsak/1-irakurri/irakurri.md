@@ -58,6 +58,7 @@ Ikastaro honetako dataset-a dagoeneko transkribatuta dago. Zuzenean hurrengo fas
 
 ---
 
+(3-datuen-antolaketa-fitxategien-izenak)=
 ## 3. Datuen antolaketa: Fitxategien izenak
 
 Behin testuak prest daudenean, ezinbestekoa da **nomenklatura-arau** koherenteak erabiltzea. Horrela, QualCoder-ek fitxategiak automaitkoki ordenatuko ditu eta errazagoa izango da iturriak identifikatzea.

@@ -40,14 +40,15 @@ Fitxategiak sartu aurretik, komeni da ikerketaren helburu orokorra bat ezartzea.
 
 1. Joan `Files and Cases` > `Manage files`.
 2. Sakatu 📄+ eta hautatu deskargatutako fitxategiak.
-3. Eman izen garbi eta koherenteak fitxategiei (ikus [nomenklatura-arauak](../urratsak/1-irakurri/irakurri.md#3-datuen-antolaketa-fitxategien-izenak)): `2026-elkarrizketa-ir01`, `20260105-egunkaria-ikerlaria`, `2026-documentua-programazioa`.
+3. Eman izen garbi eta koherenteak fitxategiei (ikus {ref}` nomenklatura-arauak<3-datuen-antolaketa-fitxategien-izenak>`):
+`2026-elkarrizketa-ir01`, `20260105-egunkaria-ikerlaria`, `2026-documentua-programazioa`.
 
 ## 4. Kodeak sortu
 
 1. Joan `Codes` > `Manage codes`.
 2. Sakatu ➕ eta idatzi lehen kodeak, adib: `motibazioa`, `parte-hartzea`, `talde-lana`.
 
-```{admonition} Aholkua id="kd9mk2"
+```{admonition} Aholkua
 :class: tip
 Kode bakoitzari kolore ezberdina jar diezaiozu, analisian errazago aurkitzeko.
 ```
