@@ -58,5 +58,6 @@ Egile, I. (Urtea). Artikuluaren izenburua. *Aldizkaria, bolumena*(alea), xx–xx
 ## Tresna Lagungarriak
 
 - [Zotero](https://www.zotero.org) — Erreferentzia kudeatzailea (doakoa)
+- [RefWorks](https://www.refworks.com/) — Erreferentzia kudeatzailea (UPV/EHUko kontua behar da)
 - [APA Style](https://apastyle.apa.org) — APA 7 webgune ofiziala
-- [Purdue OWL](https://owl.purdue.edu/owl/research_and_citation/apa_style/) — APA gida ingelesez
+

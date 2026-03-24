@@ -55,10 +55,24 @@ Emaitzen atalak ondokoa barne hartzen du, ikerketa motaren arabera:
 
 Taula eta irudi guztiek honako formatua izango dute (APA 7):
 
-Taula # edo Irudi #
+Taula 1
+*Ikerketako laginaren deskribapena {cite:p}`galindo2026influencia`*
 
-*Izenburua*
+:::{image} ../../assets/images/apa/table-apa.png
+:alt: Taula APA adibidea
+:align: center
+:::
 
-[Edukia]
+Oharra. Datuak online bidez jasotako galde-sortatik atera dira.
 
-Oharra. [Azalpena edo iturria]
+Irudi 1
+*Motibazioaren eta ChatGPT-aren erabileraren arteko erlazioa {cite:p}`galindo2023emotional`*
+
+:::{image} ../../assets/images/apa/figure-apa.png
+:alt: Irudi APA adibidea
+:align: center
+:::
+
+Oharra. Suizidio-ideazioaren eta laguntza sozialaren arteko bitartekotza eredua.
+
+
