@@ -53,7 +53,7 @@ Emaitzen atalak ondokoa barne hartzen du, ikerketa motaren arabera:
 
 ## Taula eta Irudi Nagusien Formatua
 
-Taula eta irudi guztiek honako formatua izango dute (APA 7):
+Taula eta irudi guztiek APA 7 formatu zehatza jarraitu behar dute. Ikus [formatuaren azalpen xehea hemen](formatua-apa-taula-irudi).
 
 Taula 1
 *Ikerketako laginaren deskribapena {cite:p}`galindo2026influencia`*
