@@ -56,25 +56,36 @@ Gradu Amaierako Lana
 
 * - Atala
   - Edukia
+  - Portzentajea (gutxi gorabehera)
 * - **{term}`Portada`**
   - Izenburua, egilea, data, tutorea eta gradua.
+  - —
 * - **{term}`Laburpenak <Laburpena>`**
   - Euskaraz (150-250 hitz), gazteleraz eta ingelesez.
+  - —
 * - **{term}`Eskerrak`**
   - Aukerakoa.
+  - —
 * - **{term}`Aurkibideak`**
   - Edukia, taulak eta irudiak.
+  - —
 * - **[1. Sarrera](../c-bukaerako-txostena/1-sarrera.md)**
-  - {term}`Testuinguraketa`, problema, xedea, galderak eta helburuak.
+  - {term}`Testuinguraketa`, problema, xedea, galderak eta helburuak. (Marko teorikoa barne)
+  - **45%**
 * - **[2. Metodoa](../c-bukaerako-txostena/2-metodoa.md)**
   - {term}`Diseinua`, {term}`Aldagaiak`, {term}`Parte-hartzaileak`, {term}`Tresnak`, {term}`Prozesua`, analisia eta {term}`Etika`.
+  - **10%**
 * - **[3. Emaitzak](../c-bukaerako-txostena/3-emaitzak.md)**
   - Aurkikuntza nagusiak.
+  - **30%**
 * - **[4. Eztabaida eta Ondorioak](../c-bukaerako-txostena/4-eztabaida-ondorioak.md)**
   - Interpretazioa, mugak, {term}`Ondorioak` eta proposamenak.
+  - **15%**
 * - **[5. Erreferentziak](../c-bukaerako-txostena/5-erreferentziak.md)**
   - APA 7 formatua (alfabetikoki).
+  - —
 * - **[6. Eranskinak](../c-bukaerako-txostena/6-eranskinak.md)**
   - Baldin badaude (baimenen formularioak, {term}`Tresnak`, transkripzioak…).
+  - —
 :::
 

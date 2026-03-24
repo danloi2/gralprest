@@ -37,6 +37,10 @@ Etika
 : Ikerketan jarraitutako printzipio etikoak, baimenak eta datu-babesa.
 :::
 
+:::{note}
+Atal hau idazteko **iragana** edo **orainaldi perfektua** erabiltzea gomendatzen da APA 7 arauen arabera (ikus [](#tab:apaverb)).
+:::
+
 Metodoa atalak ikerketaren **nola** deskribatzen du xehetasun nahikoaz, beste ikertzaile batek erreplikazioa egin ahal izateko.
 
 ---

@@ -19,6 +19,10 @@ Marko Teorikoa
 : Aztertutako gaiaren oinarri teorikoak, kontzeptu nagusiak eta aurretiazko ikerketen berrikuspena.
 :::
 
+:::{note}
+Atal hau idazteko **iragana** edo **orainaldi perfektua** erabiltzea gomendatzen da APA 7 arauen arabera (ikus [](#tab:apaverb)).
+:::
+
 Sarrerak irakurleari ikerketaren **zergatia eta nola** azaldu behar dizkio. Ondoko azpiatalen bidez egituratzen da:
 
 ---

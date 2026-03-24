@@ -19,6 +19,10 @@ Eremuen arabera:
 - **Ikerketa kuantitatiboa**: Taulak, grafikoak, p-balioak, efektu-tamainak
 - **Ikerketa kualitatiboa**: Kategoriak, gaiak, parte-hartzaileen zitak
 
+:::{note}
+Emaitzen aurkezpenean **iragana** erabiltzea gomendatzen da APA 7 arauen arabera (ikus [](#tab:apaverb)).
+:::
+
 :::{admonition} Gogora
 :class: warning
 

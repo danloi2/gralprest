@@ -145,7 +145,14 @@ project:
     - title: Baliabideak
       children:
         - file: gral/z-baliabideak/irakurtzeko.md
-        - file: gral/z-baliabideak/idazketa-estiloa.md
+        - title: Idazketa Estiloa
+          children:
+            - file: gral/z-baliabideak/apa-7/apa-7-estiloa.md
+            - file: gral/z-baliabideak/apa-7/testuko-aipuak.md
+            - file: gral/z-baliabideak/apa-7/estilo-mekanikak.md
+            - file: gral/z-baliabideak/apa-7/taulak-eta-irudiak.md
+            - file: gral/z-baliabideak/apa-7/gramatika.md
+            - file: gral/z-baliabideak/apa-7/erreferentzia-zerrenda.md
         - file: gral/z-baliabideak/datu-baseak.md
         - file: gral/z-baliabideak/txantiloia.md
 

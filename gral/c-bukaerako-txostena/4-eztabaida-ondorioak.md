@@ -24,6 +24,10 @@ Ondorioak
 - 4.1.2. Ikerketaren Inplikazioak
 - 4.1.3. Ikerketaren Mugak
 
+:::{note}
+Emaitzen interpretazioan eta inplikazioetan **oraina** erabiltzea gomendatzen da APA 7 arauen arabera (ikus [](#tab:apaverb)).
+:::
+
 Ikus [(8) Emaitzak Eztabaidatu](../b-prozesuan-zehar/8-emaitzak-eztabaidatu.md) gidalerroan.
 
 ---
@@ -35,5 +39,9 @@ Ikerketaren **{term}`ondorio nagusiak <Ondorioak>`** helburu eta galdera bakoitz
 - 4.2.1. Sintesia edo Indar Ideak
 - 4.2.2. Helburu eta Ikerketa Galderen Erantzunak
 - 4.2.3. Etorkizuneko Ikerketarako Proposamenak
+
+:::{tip}
+Etorkizuneko proposamenak idazteko **etorkizuneko denbora** erabili ohi da APA 7 estiloan (ikus [](#tab:apaverb)).
+:::
 
 Ikus [(9) Ondorioak Identifikatu](../b-prozesuan-zehar/9-ondorioak-identifikatu.md) gidalerroan.
