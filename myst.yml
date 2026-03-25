@@ -169,7 +169,6 @@ site:
         url: https://www.ehu.eus/eu/web/hezkuntza-filosofia-antropologia-fakultatea/gradu-amaierako-lana
   template: book-theme
   options:
-      style: ./assets/custom.css
       logo: ./assets/images/logos/ehu-hefa-positive.svg
       logo_dark: ./assets/images/logos/ehu-hefa-negative.svg
       numbered_references: false

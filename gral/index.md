@@ -12,14 +12,14 @@ site:
 :alt: Hezkuntza, Filosofía eta Antropología Fakultatea — UPV/EHU
 :width: 480px
 :align: center
-:class: light-only
+:class: dark:hidden
 :::
 
 :::{image} ../assets/images/logos/ehu-hefa-negative.svg
 :alt: Hezkuntza, Filosofía eta Antropología Fakultatea — UPV/EHU
 :width: 480px
 :align: center
-:class: dark-only
+:class: hidden dark:block
 :::
 
 
