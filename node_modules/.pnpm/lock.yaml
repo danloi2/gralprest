@@ -20,9 +20,9 @@ importers:
       mystmd:
         specifier: latest
         version: 1.8.2
-      python:
-        specifier: ^0.0.4
-        version: 0.0.4
+      pnpm:
+        specifier: ^10.33.0
+        version: 10.33.0
       unist-builder:
         specifier: latest
         version: 4.0.0
@@ -127,9 +127,10 @@ packages:
     resolution: {integrity: sha512-zdRFh+1FAZt0Vy9XaKNu+5h4zXC2pkunZH8MV7tSGoq54skik8nxn5ks3E9f33m+tPxuliSRzEHz7owb1Z0HYg==}
     hasBin: true
 
-  python@0.0.4:
-    resolution: {integrity: sha512-7avKA/6XxrwcGSDes8xGn7FHAUdAUQXKHtpjDulyv5/nm7TcPblmPRvXjjwx5knWHqeRiipqH/TZR2HhmJ4CGQ==}
-    engines: {node: '>= 0.4.1'}
+  pnpm@10.33.0:
+    resolution: {integrity: sha512-EFaLtKavtYyes2MNqQzJUWQXq+vT+rvmc58K55VyjaFJHp21pUTHatjrdXD1xLs9bGN7LLQb/c20f6gjyGSTGQ==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   simple-validators@1.2.0:
     resolution: {integrity: sha512-YzlgCBDukw6OeKN5QjliD/3jERQBH0zGr5WPUrEPD8pteOcg+QGJFP++T7XOwjhKKLZBPLWEmDv+pwjKPzHLVg==}
@@ -283,7 +284,7 @@ snapshots:
 
   orcid@1.0.0: {}
 
-  python@0.0.4: {}
+  pnpm@10.33.0: {}
 
   simple-validators@1.2.0: {}
 
