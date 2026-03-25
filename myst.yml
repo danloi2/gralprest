@@ -170,7 +170,9 @@ site:
   template: book-theme
   options:
   #   favicon: favicon.ico
-      logo: ./assets/images/hefa-logo.png
+      logo:
+        light: ./assets/images/logos/ehu-hefa-positive.svg
+        dark: ./assets/images/logos/ehu-hefa-negative.svg
       numbered_references: false
       twitter: dani_losada
       logo_text: Gradu Amaierako Lana
