@@ -161,6 +161,8 @@ project:
         - file: info/glossary.md
 
 site:
+  stylesheets:
+    - assets/custom.css
   nav:
       - title: Daniel Losada
         url: https://ekoizpen-zientifikoa.ehu.eus/investigadores/130988/detalle

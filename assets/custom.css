@@ -1,0 +1,7 @@
+/* Custom CSS for light and dark mode images */
+[data-theme='dark'] .light-only {
+  display: none !important;
+}
+[data-theme='light'] .dark-only {
+  display: none !important;
+}
