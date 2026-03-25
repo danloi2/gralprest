@@ -92,4 +92,4 @@ This work is licensed under a **Creative Commons Attribution-ShareAlike 4.0 Inte
 
 This project is developed for the benefit of the university community. Contributions that align with the project's educational goals are welcome.
 
-**Author**: Daniel Losada (UPV/EHU) - [![GitHub](https://img.shields.io/badge/GitHub-danloi2-181717?style=flat&logo=github)](https://github.com/danloi2)
+**Author**: Daniel Losada (UPV/EHU) - [![GitHub](https://img.shields.io/badge/Daniel_Losada-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danloi2)
