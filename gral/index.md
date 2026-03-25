@@ -8,10 +8,18 @@ site:
   hide_title_block: false
 ---
 
-:::{image} https://www.ehu.eus/documents/4998110/7068022/Facultad+Educacion+Filosofia+Antropologia_Gipuzkoa_bilingue_positivo_alta.jpg
+:::{image} ../assets/images/logos/ehu-hefa-positive.svg
 :alt: Hezkuntza, Filosofía eta Antropología Fakultatea — UPV/EHU
 :width: 480px
 :align: center
+:class: light-only
+:::
+
+:::{image} ../assets/images/logos/ehu-hefa-negative.svg
+:alt: Hezkuntza, Filosofía eta Antropología Fakultatea — UPV/EHU
+:width: 480px
+:align: center
+:class: dark-only
 :::
 
 
