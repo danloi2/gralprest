@@ -1,7 +1,12 @@
 /* Custom CSS for light and dark mode images */
-[data-theme='dark'] .light-only {
+[data-theme='dark'] .light-only,
+html.dark .light-only,
+body.dark .light-only {
   display: none !important;
 }
-[data-theme='light'] .dark-only {
+
+[data-theme='light'] .dark-only,
+html:not(.dark) .dark-only,
+body:not(.dark) .dark-only {
   display: none !important;
 }

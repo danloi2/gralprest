@@ -161,8 +161,6 @@ project:
         - file: info/glossary.md
 
 site:
-  stylesheets:
-    - assets/custom.css
   nav:
       - title: Daniel Losada
         url: https://ekoizpen-zientifikoa.ehu.eus/investigadores/130988/detalle
@@ -171,7 +169,7 @@ site:
         url: https://www.ehu.eus/eu/web/hezkuntza-filosofia-antropologia-fakultatea/gradu-amaierako-lana
   template: book-theme
   options:
-  #   favicon: favicon.ico
+      style: ./assets/custom.css
       logo: ./assets/images/logos/ehu-hefa-positive.svg
       logo_dark: ./assets/images/logos/ehu-hefa-negative.svg
       numbered_references: false
