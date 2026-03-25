@@ -1,7 +1,7 @@
 {
-  "name": "gral",
+  "name": "gralprest",
   "version": "1.0.0",
-  "license": "MIT",
+  "license": "CC-BY-SA-4.0",
   "scripts": {
     "init": "jupyter book init --write-toc",
     "start": "jupyter book start",
@@ -18,7 +18,6 @@
     "myst-directives": "latest",
     "myst-roles": "latest",
     "mystmd": "latest",
-    "python": "^0.0.4",
     "unist-builder": "latest"
   }
 }

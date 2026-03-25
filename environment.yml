@@ -1,4 +1,4 @@
-name: gral
+name: gralprest
 channels:
   - conda-forge
 dependencies:
