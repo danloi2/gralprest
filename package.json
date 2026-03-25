@@ -18,6 +18,7 @@
     "myst-directives": "latest",
     "myst-roles": "latest",
     "mystmd": "latest",
+    "pnpm": "^10.33.0",
     "unist-builder": "latest"
   }
 }
