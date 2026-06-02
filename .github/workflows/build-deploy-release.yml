@@ -1,14 +1,11 @@
-# This file was created automatically with `myst init --gh-pages` 🪄 💚
-name: MyST Build, Pages Deploy and Release
+name: MkDocs Build, Pages Deploy and Release
 
 on:
   push:
-    branches: [main]
-    tags: ["v*.*.*"]
-
-env:
-  BASE_URL: /${{ github.event.repository.name }}
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    branches:
+      - main
+    tags:
+      - "v*.*.*"
 
 permissions:
   contents: read
@@ -16,87 +13,99 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
+
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          node-version: 24.x
+          python-version: "3.12"
 
-      - name: Install MyST Markdown
-        run: npm install -g mystmd
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Build HTML Assets
-        run: myst build --html
+      - name: Build MkDocs
+        run: mkdocs build --strict
 
       - name: Create ZIP of site
         run: |
-          cd _build
-          zip -r myst-site.zip html
+          cd site
+          zip -r ../mkdocs-site.zip .
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v4
         with:
-          name: myst-site
+          name: mkdocs-site
           path: |
-            _build/html
-            _build/myst-site.zip
+            site
+            mkdocs-site.zip
 
   deploy:
     if: github.ref == 'refs/heads/main'
+
     needs: build
+
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Download build artifact
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v4
         with:
-          name: myst-site
-          path: _build
+          name: mkdocs-site
+          path: .
 
-      - name: Setup Pages
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact to Pages
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "_build/html"
+          path: site
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
   release:
-    if: startsWith(github.ref, 'refs/tags/')
+    if: startsWith(github.ref, 'refs/tags/v')
+
     needs: build
+
     runs-on: ubuntu-latest
+
     permissions:
-      contents: write   # necesario para crear releases
+      contents: write
 
     steps:
       - name: Download build artifact
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v4
         with:
-          name: myst-site
-          path: _build
+          name: mkdocs-site
+          path: .
 
       - name: Rename ZIP with version
-        run: mv _build/myst-site.zip _build/myst-site-${{ github.ref_name }}.zip
+        run: |
+          mv mkdocs-site.zip mkdocs-site-${{ github.ref_name }}.zip
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: _build/myst-site-${{ github.ref_name }}.zip
+          files: mkdocs-site-${{ github.ref_name }}.zip
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
