@@ -1,4 +1,4 @@
-site_name: "Hezkuntza Datuak Aztertzen"
+site_name: "Hezkuntza Datuak Aztertzen "
 site_description: "Guía Didáctica de la Asignatura Metodología de Investigación en Tecnología Educativa"
 site_author: "Daniel Losada"
 
@@ -79,7 +79,7 @@ markdown_extensions:
       permalink: true
 
   - pymdownx.details
-  
+
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
