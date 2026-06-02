@@ -1,0 +1,153 @@
+site_name: "Hezkuntza Datuak Aztertzen"
+site_description: "Guía Didáctica de la Asignatura Metodología de Investigación en Tecnología Educativa"
+site_author: "Daniel Losada"
+
+repo_url: "https://github.com/danloi2/gralprest"
+repo_name: "danloi2/gralprest"
+
+theme:
+  name: material
+  language: es
+
+  logo: assets/images/logos/ehu-hefa-negative.svg
+  favicon: assets/images/logos/favicon.png
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    - content.code.copy
+    - content.tooltips
+
+plugins:
+  - search
+
+  - bibtex:
+      bib_file: docs/assets/references.bib
+      csl_file: docs/assets/apa.csl
+
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+
+      languages:
+        - locale: es
+          name: Español
+          default: true
+
+        - locale: eu
+          name: Euskara
+
+        - locale: en
+          name: English
+
+markdown_extensions:
+  - admonition
+
+  - footnotes
+  - def_list
+  - attr_list
+  - md_in_html
+
+  - toc:
+      permalink: true
+
+  - pymdownx.details
+  - pymdownx.superfences
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social: []
+
+nav:
+  - Inicio: index.md
+
+  - Hasi Aurretik:
+      - Definizioa: gral/a-hasi-aurretik/definizioa.md
+
+      - GRALen gaiak:
+          - Adimen Artifiziala: gral/a-hasi-aurretik/research-topics/adimen-artifiziala.md
+          - Ikaskuntzarako Diseinu Unibertsala: gral/a-hasi-aurretik/research-topics/ikaskuntzarako-diseinu-unibertsala.md
+
+  - Prozesuan Zehar:
+      - Prozesuan zehar: gral/b-prozesuan-zehar/prozesuan-zehar.md
+
+      - 1 Marko Kontzeptuala Ezarri: gral/b-prozesuan-zehar/1-marko-kontzeptuala-ezarri.md
+      - 2 Esparru Teorikoa Mugatu: gral/b-prozesuan-zehar/2-esparru-teorikoa-mugatu.md
+      - 3 Informanteak Aukeratu: gral/b-prozesuan-zehar/3-informanteak-aukeratu.md
+      - 4 Tresnak Aukeratu/Sortu: gral/b-prozesuan-zehar/4-tresnak-aukeratu-sortu.md
+      - 5 Datuak Bilatu/Jaso: gral/b-prozesuan-zehar/5-datuak-bilatu-jaso.md
+
+      - "(6) Datuak ANALIZATU":
+          - Analisi Hautatu: gral/b-prozesuan-zehar/6-datuak-analizatu.md
+
+          - Analisi Kuantitatiboa:
+              - Sarrera: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/analisi-kuantitatiboa.md
+              - Aldagaiak: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/aldagaiak.md
+
+          - Analisi Kualitatiboa:
+              - Sarrera: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/analisi-kualitatiboa.md
+              - Datu Motak: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/datu-motak.md
+
+      - 7 Emaitzak Deskribatu: gral/b-prozesuan-zehar/7-emaitzak-deskribatu.md
+      - 8 Emaitzak Eztabaidatu: gral/b-prozesuan-zehar/8-emaitzak-eztabaidatu.md
+      - 9 Ondorioak Identifikatu: gral/b-prozesuan-zehar/9-ondorioak-identifikatu.md
+      - 10 Txostena Idatzi: gral/b-prozesuan-zehar/10-txostena-idatzi.md
+
+  - Bukaerako Txostena:
+      - Sarrera: gral/c-bukaerako-txostena/txostena.md
+      - 1 Sarrera: gral/c-bukaerako-txostena/1-sarrera.md
+      - 2 Metodoa: gral/c-bukaerako-txostena/2-metodoa.md
+      - 3 Emaitzak: gral/c-bukaerako-txostena/3-emaitzak.md
+      - 4 Eztabaida eta Ondorioak: gral/c-bukaerako-txostena/4-eztabaida-ondorioak.md
+      - 5 Erreferentziak: gral/c-bukaerako-txostena/5-erreferentziak.md
+      - 6 Eranskinak: gral/c-bukaerako-txostena/6-eranskinak.md
+
+  - Baliabideak:
+      - Irakurtzeko: gral/z-baliabideak/irakurtzeko.md
+
+      - Idazketa Estiloa:
+          - APA 7 Estiloa: gral/z-baliabideak/apa-7/apa-7-estiloa.md
+          - Testuko Aipuak: gral/z-baliabideak/apa-7/testuko-aipuak.md
+          - Estilo Mekanikak: gral/z-baliabideak/apa-7/estilo-mekanikak.md
+          - Taulak eta Irudiak: gral/z-baliabideak/apa-7/taulak-eta-irudiak.md
+          - Gramatika: gral/z-baliabideak/apa-7/gramatika.md
+          - Erreferentzia Zerrenda: gral/z-baliabideak/apa-7/erreferentzia-zerrenda.md
+
+      - Datu Baseak: gral/z-baliabideak/datu-baseak.md
+      - Txantiloia: gral/z-baliabideak/txantiloia.md
+
+  - Informazioa:
+      - Glosarioa: info/glossary.md
