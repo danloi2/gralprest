@@ -10,7 +10,6 @@ theme:
   language: es
 
   logo: assets/images/logos/ehu-hefa-negative.svg
-  favicon: assets/images/logos/favicon.png
 
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -33,7 +32,11 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.indexes
+    - navigation.footer
     - navigation.top
+
+    - toc.follow
 
     - search.suggest
     - search.highlight
@@ -76,7 +79,14 @@ markdown_extensions:
       permalink: true
 
   - pymdownx.details
-  - pymdownx.superfences
+  
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+
 
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -88,8 +98,14 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
+
 extra:
+  mermaid: true
   social: []
+
+  mermaid_init: true
 
 nav:
   - Inicio: index.md
@@ -111,15 +127,45 @@ nav:
       - 5 Datuak Bilatu/Jaso: gral/b-prozesuan-zehar/5-datuak-bilatu-jaso.md
 
       - "(6) Datuak ANALIZATU":
-          - Analisi Hautatu: gral/b-prozesuan-zehar/6-datuak-analizatu.md
+        - Analisi Hautatu: gral/b-prozesuan-zehar/6-datuak-analizatu.md
 
-          - Analisi Kuantitatiboa:
-              - Sarrera: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/analisi-kuantitatiboa.md
-              - Aldagaiak: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/aldagaiak.md
+        - Analisi Kuantitatiboa:
+            - Sarrera: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/analisi-kuantitatiboa.md
+            - Aldagaiak: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/aldagaiak.md
 
-          - Analisi Kualitatiboa:
-              - Sarrera: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/analisi-kualitatiboa.md
-              - Datu Motak: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/datu-motak.md
+            - Softwarea:
+                - Jamovi: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/softwarea/jamovi.md
+                - SPSS: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/softwarea/spss.md
+
+            - Urratsak:
+                - 1. Prestaketa: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/urratsak/1-prestaketa/prestaketa.md
+                - 2. Deskribatzailea: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/urratsak/2-deskribatzailea/aldagai-bakarra.md
+                - 3. Banaketa: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/urratsak/3-banaketa/banaketaren-analisiak.md
+
+                - 4. Inferentziala:
+                    - Oinarriak: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/urratsak/4-inferentziala/oinarriak.md
+                    - Aldagai Kategorikoak: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/urratsak/4-inferentziala/aldagai-kategorikoak.md
+                    - Aldagai Kuantitatiboak: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/urratsak/4-inferentziala/aldagai-kuantitatiboak.md
+                    - Bi Talde: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/urratsak/4-inferentziala/bi-talde.md
+                    - Hiru Talde edo Gehiago: gral/b-prozesuan-zehar/6-datuak-analizatu/kuantitatiboa/urratsak/4-inferentziala/hiru-talde-edo-gehiago.md
+
+        - Analisi Kualitatiboa:
+            - Sarrera: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/analisi-kualitatiboa.md
+            - Datu Motak: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/datu-motak.md
+
+            - Softwarea:
+                - QualCoder: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/softwarea/qualcoder.md
+                - QualCoder Config: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/softwarea/qualcoder-config.md
+                - QualCoder Config IA: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/softwarea/qualcoder-config-ia.md
+                - QualCoder Proiektua: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/softwarea/qualcoder-proiektua.md
+                - Beste Softwareak: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/softwarea/beste-softwareak.md
+
+            - Urratsak:
+                - 1. Irakurri: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/urratsak/1-irakurri/irakurri.md
+                - 2. Kodifikatu: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/urratsak/2-kodifikatu/kodifikatu.md
+                - 3. Taldekatu: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/urratsak/3-taldekatu/taldekatu.md
+                - 4. Interpretatu: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/urratsak/4-interpretatu/interpretatu.md
+                - 5. Idatzi: gral/b-prozesuan-zehar/6-datuak-analizatu/kualitatiboa/urratsak/5-idatzi/idatzi.md
 
       - 7 Emaitzak Deskribatu: gral/b-prozesuan-zehar/7-emaitzak-deskribatu.md
       - 8 Emaitzak Eztabaidatu: gral/b-prozesuan-zehar/8-emaitzak-eztabaidatu.md
